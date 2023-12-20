@@ -7,8 +7,8 @@ warnings.filterwarnings('ignore')
 
 from sklearn.preprocessing import LabelEncoder
 
-FILE_PATH = '/Users/ootsuka/Desktop/プログラミング/Kaggle/Home_Credit_Default_Risk/input/'
-OUTPUT_DIR = '/Users/ootsuka/Desktop/プログラミング/Kaggle/Home_Credit_Default_Risk/output/'
+FILE_PATH = ''
+OUTPUT_DIR = ''
 
 train = pd.read_csv(FILE_PATH + 'train.csv')
 test = pd.read_csv(FILE_PATH + 'test.csv')
