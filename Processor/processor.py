@@ -30,8 +30,8 @@ def changeHMS(s):
     time = indi_h + indi_m + str(s) + 's'
     return time
 
-FILE_PATH = '/Users/ootsuka/Desktop/プログラミング/Kaggle/肝硬変の転帰の多クラス予測/input/'
-OUTPUT_DIR = '/Users/ootsuka/Desktop/プログラミング/Kaggle/肝硬変の転帰の多クラス予測/output/'
+FILE_PATH = ''
+OUTPUT_DIR = ''
 
 train = pd.read_csv(FILE_PATH + 'train.csv')
 test = pd.read_csv(FILE_PATH + 'test.csv')
